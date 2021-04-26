@@ -11,13 +11,12 @@ const WorkoutSchema = new Schema({
         {
             type: {
                 type: String,
-                required: true,
-                trim: true
+                trim: true,
+                default: "TBD"
             },
             name: {
                 type: String,
-                required: true,
-                unique: true
+                default: "TBD"
             },
             distance: {
                 type: Number
