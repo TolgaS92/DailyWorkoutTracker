@@ -5,6 +5,7 @@ const logger = require("morgan");
 const PORT = process.env.PORT || 3000
 
 const app = express();
+mongoose.set('toJSON', { virtuals: true });
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
