@@ -19,20 +19,23 @@
    - express
    - mongoose
    - morgan
-4. MongoDB
+4. MongoDB / mongoDB ATLAS
 5. Heroku
 
 ## Description
 
-- An Application that you can save your workouts.
+- An Application that can save daily workout plans. Also, user able to see the last workout they have done. Dashboard section shows the 7 days workout history of the user.
 
 ## Deployed application link
 
-- [Deployed Link](...)
+- [Deployed Link](https://fitness-tracker-with-mongodb.herokuapp.com/)
 
 ## Usage
 
-- User needs to add workout plan.
+- User needs to create a workout plan, and click in complete when they have done, it will show the last workout on the main page. If they click on the dashboard section, they will be taken to 7 days workout history with graphics.
+
+- ![Dashboard](public/assets/images/dashboard.jpg)
+- ![Home Page](public/assets/images/homepage.jpg)
 
 ## License
 
@@ -40,7 +43,7 @@
 
 ## Credits
 
-- Front End code was given by Triology, and backend created by Tolga Secme.
+- Front End code was given by Triology, models/api routes/ deploy page / server connections created by Tolga Secme.
 
 ## Contributing
 

@@ -5,6 +5,8 @@ const logger = require("morgan");
 const PORT = process.env.PORT || 3000
 
 const app = express();
+
+// virtualize the workout toJSON because it wouldn't get the  duration time..
 mongoose.set('toJSON', { virtuals: true });
 
 app.use(express.urlencoded({ extended: true }));

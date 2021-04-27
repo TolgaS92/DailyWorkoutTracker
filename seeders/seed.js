@@ -1,6 +1,6 @@
 let mongoose = require("mongoose");
 let db = require("../models");
-
+// This is updated for heroku, it wouldn't let the push seeds, because of the env issue..
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
